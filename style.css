@@ -1,0 +1,25 @@
+div {
+    position: sticky;
+    top: 10px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    font-size: x-large;
+    padding: 10px;
+}
+
+h1 {
+    background-color: aquamarine;
+    border: 2px solid black;
+    font-size: xx-large;
+    text-align: center;
+    padding: 40px;
+}
+
+p::before {
+    content: '\2706';
+}
+
+p {
+    font-size: larger;
+    background-color: chartreuse;
+}
